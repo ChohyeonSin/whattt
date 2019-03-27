@@ -1,12 +1,12 @@
 <!doctype html>
 <head>
-  <title> 데이터베이스</title>
+  <title> 로그인/회원가입</title>
   <meta charset="utf-8">
   <style>
   body{
-
     margin : 0;
   }
+
   #grid{
   display:grid;
   grid-template-columns:240px 1fr;
@@ -21,12 +21,11 @@
 
 #article{
   padding - left:25px;
-  font-size: 25px;
 }
 a{
   color:black;
   text-decoration: none;
-  font-size:20px
+  font-size:20px;
 }
 #ddd{
   font-size: 18px;
@@ -51,34 +50,51 @@ ol
 ol{padding-left: 33px;
 padding-top: 10px;
 padding-bottom:10px;}
+
+#ggg{
+  display: block !important;
+  position: relative !important;
+  text-align: center !important;
+  border:red 5px solid;
+  padding:20px;
+  margin:20px;
+  width:200px;
+}
+h2{margin-top:30px;}
+
 }
 </style>
 </head>
 
 <body>
+
   <h1><a href=" index.html"><div id="headline">전력거래단지</div></a></h1>
 <div id="grid">
   <ol>
     <li> <a href=" 1.html" >전력거래단지</a></li>
-    <li> <a href="2.html " >매매신청</a> </li>
-    <li> <a href="3.html "id="active">데이터베이스</a></li>
+    <li> <a href="2.html ">매매신청</a> </li>
+    <li> <a href="3.html ">데이터베이스</a></li>
     <li> <a href="coupon.html ">쿠폰/등급</a></li>
     <li> <a href="4.html ">커뮤니티</a></li>
-    <li> <a href="login.html ">로그인/회원가입</a></li>
+    <li> <a href="login.html "id="active">로그인/회원가입</a></li>
+
   </ol>
 
-  <!--<h1><a href=" index.html"><font color ="blue">전력거래단지</font></a></h1>
-  <ol>
-    <li> <a href=" 1.html"><font color ="red">전력거래단지</font></a></li>
-    <li> <a href="2.html "><font color ="orange">효과</font></a> </li>
-    <li> <a href="3.html "><font color ="yellow">실행 - 데이터</font></a></li>
-  </ol>
--->
+<form action = "sirmoon.jsp">
 <div id="article">
-  <h2>데이터베이스</h2>
-<img src="qq.png" width="95%">
-<p>이러한 결과를 봤을 때 신초현님은<br>김포시에 있는 풍무회원들에게 1KW당 -만원대인 ○○○Kw의 전기를 사는 것이 좋겠습니다.</p>
+  <h2>로그인/회원가입</h2>
 
-</body>
+  <table>
+    <!--1-->
+    <tr>
+      <td>
+        <p>     아이디 )  <input type="text" name = "_id"></p>
+          <p> 비밀번호 ) <input type="text" name = "_id"></p>
 
-</html>
+      </td>
+    </tr>
+  </table>
+  </div>
+  <a href="1.html " id="ggg">확인</a>
+  </body>
+  </html>

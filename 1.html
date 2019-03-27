@@ -1,27 +1,91 @@
 <!doctype html>
 <head>
-  <title>전력거래단지</title>
+  <title> 전력거래단지</title>
   <meta charset="utf-8">
-<ol>
-  <li> <a href=" 1.html">전력거래단지</a></li>
-  <li> <a href="2.html ">효과</a> </li>
-  <li> <a href="3.html ">실행 - 데이터</a></li>
-</ol>
+  <style>
+  body{
+    margin : 0;
+  }
+  #grid{
+  display:grid;
+  grid-template-columns:240px 1fr;
+}
+  #active{
+    color:orange;
+  }
+  #headline {
+    font-size: 70px;
+    color: pink;
+  }
+
+#article{
+  padding - left:25px;
+}
+a{
+  color:black;
+  text-decoration: none;
+  font-size:20px
+}
+#ddd{
+  font-size: 18px;
+}
+
+h1{
+   text-align:center;
+   border-bottom:3px solid green;
+   margin:0;
+   padding:30px;
+}
+
+ol
+{
+  border-right:3px solid green ;
+  width:150px;
+  margin:0;
+  padding:20px;
+
+
+}
+ol{padding-left: 33px;
+padding-top: 10px;
+padding-bottom:10px;}
+}
+</style>
 </head>
+
 <body>
-<h1>전력거래단지</h1>
-<h2>전력거래단지</h2>
-<p><strong><a href="https://terms.naver.com/entry.nhn?docId=2838482&cid=43667&categoryId=43667" target="_blank" title = "블록체인의 정의">블록체인</strong></a>을 이용한 민간참여자를 위한 단지간의 전력거래 플랫폼을 구축</p>
-<p>발전소와 전기회사라는 단방향 시스템에서 벗어나 개인이 손쉽게 잉여전력을
- 사고 팔 수 있도록 하는 것이 변화하고 있는 전력거래의 방향이다.<br>
- 외국에는 실제 온라인 직거래 장터와 비슷한 방식으로 개인 간
-  전력을 사고 팔 수 있도록 하는 블록체인 기반 개인 간(P2P)
-  전력 거래 시스템인 ‘파워레저(Power Ledger)가 있다. <br>물론 현재 우리나라에서는
-  에너지를 개인이 생산하고 중개업자에게 팔 수 있지만 서비스가 잘 구축되어 있지 않아 실행 과정에서 많은 수수료와 시간이 든다.<br>
-또, 우리나라에서는 도 단위로 전력거래를 하고 있긴 하지만 개인에게 직접적
-인 혜택이 미미하게 미쳐 실행중인지도 잘 모르고 있는 사람들이 많다.<br>
-이를 극복하기 위해 외국의 방식을 도입하는 것을 고민하였으나 단독주택보다는 아파트나
- 그 외 건물단지가 많은 한국의 사정과 맞지 않다고 생각을 하여 단지끼리 전력거래를 할 수 있는 소프트웨어를 제안하게 되었다.</p>
-<img src="deal.jpg" width="100%">
+  <h1><a href=" index.html"><div id="headline" >전력거래단지</div></a></h1>
+<div id="grid">
+  <ol>
+    <li> <a href=" 1.html" id="active">전력거래단지</a></li>
+    <li> <a href="2.html ">매매신청</a> </li>
+    <li> <a href="3.html ">데이터베이스</a></li>
+    <li> <a href="coupon.html ">쿠폰/등급</a></li>
+    <li> <a href="4.html ">커뮤니티</a></li>
+    <li> <a href="login.html ">로그인/회원가입</a></li>
+  </ol>
+
+  <!--<h1><a href=" index.html"><font color ="blue">전력거래단지</font></a></h1>
+  <ol>
+    <li> <a href=" 1.html"><font color ="red">전력거래단지</font></a></li>
+    <li> <a href="2.html "><font color ="orange">효과</font></a> </li>
+    <li> <a href="3.html "><font color ="yellow">실행 - 데이터</font></a></li>
+  </ol>
+-->
+<div id="article">
+  <h2>전력거래단지</h2>
+  <p><strong><a href="https://terms.naver.com/entry.nhn?docId=2838482&cid=43667&categoryId=43667" target="_blank" title = "블록체인의 정의">스마트거래</strong></a>을 이용한 민간참여자를 위한 단지간의 전력거래 플랫폼을 구축</p>
+  <p><div id="ddd">발전소와 전기회사라는 단방향 시스템에서 벗어나 개인이 손쉽게 잉여전력을
+   사고 팔 수 있도록 하는 것이 변화하고 있는 전력거래의 방향이다.<br>
+   외국에는 실제 온라인 직거래 장터와 비슷한 방식으로 개인 간
+    전력을 사고 팔 수 있도록 하는 블록체인 기반 개인 간(P2P)
+    전력 거래 시스템인 ‘파워레저(Power Ledger)가 있다. <br>물론 현재 우리나라에서는
+    에너지를 개인이 생산하고 중개업자에게 팔 수 있지만 서비스가 잘 구축되어 있지 않아 실행 과정에서 많은 수수료와 시간이 든다.<br>
+  또, 우리나라에서는 도 단위로 전력거래를 하고 있긴 하지만 개인에게 직접적
+  인 혜택이 미미하게 미쳐 실행중인지도 잘 모르고 있는 사람들이 많다.<br>
+  이를 극복하기 위해 외국의 방식을 도입하는 것을 고민하였으나 단독주택보다는 아파트나
+   그 외 건물단지가 많은 한국의 사정과 맞지 않다고 생각을 하여 단지끼리 전력거래를 할 수 있는 소프트웨어를 제안하게 되었다.</p>
+  <img src="deal.jpg" width="50%">
 </body>
+
 </html>
